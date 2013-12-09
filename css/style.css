@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+}
+
+body {
+  font: normal 95%/150% "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  background-color: #efefef;
+}
+
+#main-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/**
+ *  Header Et Al
+ **/
+#header {
+  background-color: #bada55;
+  padding: 20px 10px;
+  overflow: auto;
+  border-bottom: 1px solid #aaa;
+}
+
+#header a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#header > ul.nav  {
+  list-style: none;
+  float: right;
+}
+
+#header > ul.nav > li {
+  display: inline-block;
+}
+
+#header > ul.nav > li > a {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header > ul.nav > li > a:hover {
+  background-color: #fff;
+}
+
+#header > ul.nav > li.active > a {
+  background-color: #fff;
+}
+
+#header > div.logo {
+  float: left;
+}
+
+#header > div.logo > a {
+  font-size: 2em;
+  color: #000;
+}
+
+/**
+ *  Main Content
+ **/
+
+#main-content {
+  background-color: #fff;
+  min-height: 500px;
+  padding: 20px 10px;
+}
+
+#footer {
+  border-top: 1px solid #aaa;
+  padding: 20px 10px;
+}
